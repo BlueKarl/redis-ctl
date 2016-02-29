@@ -25,5 +25,13 @@
     "register-port-hint": "Port number or range, like 6379, 6000-6020",
     "button-add-nodes": "Register",
 
+    "task-type-0": "Fix migrating",
+    "task-type-1": "Migrate",
+    "task-type-2": "Add master",
+    "task-type-3": "Add slave",
+    "task-type-4": "Remove Redis",
+    "task-type-5": "Auto expanding",
+    "task-type-6": "Bulk ops",
+
     "": ""
 }

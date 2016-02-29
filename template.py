@@ -137,7 +137,7 @@ def g_button(text, size=2, offset=0, color='default', id=None, cls=None,
 
 @_global
 def g_checkbox(text, size=2, offset=0, color='default', checked=False,
-               id=None, cls=None, data=None):
+               id=None, cls=None, data=None, lcl=None):
     if lcl is None and id is not None:
         lcl = 'checkbox-' + id
     return component('checkbox', text=text, size=size, offset=offset,
