@@ -123,5 +123,47 @@
     "task-type-5": "Auto expanding",
     "task-type-6": "Bulk ops",
 
+    "container-id": "Container ID",
+    "mirrored-version": "Mirrored version",
+    "create-time": "Create time",
+    "cluster-mode": "Cluster mode",
+    "offline-container": "Offline container",
+
+    "current-slots-num": "Current number of slots",
+    "adjusted-slots-num": "Adjusted number of slots",
+    "remain-slots-num": "Remain number of slots",
+    "all-need-to-allocate-slots-preview": "All need to allocate slots preview",
+    "migration-source": "Migration source",
+    "migration destination": "Migration destination",
+    "remove-node": "Remove nodes",
+
+    "no-agent": "No agent",
+    "Eru-address": "Eru address",
+    "select-server-room": "Select server room",
+    "server-num": "number of servers",
+    "HOST-network-model-deployment": "HOST network model deployment",
+    "select-the-cluster": "Select the cluster",
+    "node-num": "number of nodes",
+    "threads": "Threads",
+    "threads-2": "Threads 2",
+    "threads-4": "Threads 4",
+    "threads-8": "Threads 8",
+    "threads-16": "Threads 16",
+    "threads-24": "Threads 24",
+    "node-list-of-eru": "Node list of ERU",
+    "agent-list-of-eru": "Agent list of ERU",
+    "add-nodes": "Add nodes",
+    "add-agent": "Add agent",
+   
+    "eru-manage": "ERU manage",
+    "existing-nodes": "Existing nodes",
+    "existing-agent": "Existing agent",
+
+    "eru-address-not-set": "ERU address not set",
+    "not-set-message": "Eru address needs to be set at startup; if eru been deployed, you need to modify the profiles or startup parameters and then restart RedisCtl process(including daemon process)",
+    "eru-no-room-available": "ERU no room available",
+    "no-room-message1": "Eru has been deployed in",
+    "no-room-message2": "but it doesn't give room available; please check the ERU, then refresh this page",
+   
     "": ""
 }
