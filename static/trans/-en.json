@@ -164,6 +164,17 @@
     "eru-no-room-available": "ERU no room available",
     "no-room-message1": "Eru has been deployed in",
     "no-room-message2": "but it doesn't give room available; please check the ERU, then refresh this page",
-   
+
+    "for-auto-application-node-room": "For automatic application node room",
+    "machines-num": "Number of machines",
+    "specifies-the-machine-dispensing-container": "Specifies the machine dispensing container",
+    "random-master-node-dispensing-contianer": "Random master node dispensing contianer",
+    "with-slave": "With slave",
+    "slave-node": "Slave node",
+    "randomly-allocated-for-this-purpose-from-the-container-node": "Randomly allocated for this purpose from the container slave node",
+    "all-nodes-enable-AOF": "All nodes enable AOF",
+    "confirm": "Confirm",
+    "Set": "Has been set",
+    
     "": ""
 }
