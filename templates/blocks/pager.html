@@ -1,0 +1,61 @@
+{%- macro pager(page) %}
+{{- caller() }}
+<style>
+.pager {
+background-color: #ddd;
+border-radius: 0;
+}
+.pager li:first-child > a,
+.pager li:first-child > span {
+  border-radius:0
+}
+
+.pager li > a,
+.pager li > span {
+  line-height: 1.313;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+  background: none;
+  border: 1px solid #fff;
+}
+</style>
+<nav>
+  <div style='float: left'>
+    <ul class="pager">
+        {% if page != 0 %}
+        <li>
+          <a href='?page=0'>
+            {{ icon('fa fa-angle-double-left fa-lg') }}
+            <span data-localize='first-page'> First page</span>
+          </a>
+        </li>
+        <li>
+          <a href='?page={{ page - 1 }}'>
+            {{ icon('fa fa-angle-left fa-lg') }}
+            <span data-localize='previous-page'> Previous page</span>
+          </a>
+        </li>
+        {% endif %}
+        <li>
+          <a href='?page={{ page + 1 }}'>
+            <span data-localize='next-page'>Next page </span>
+            {{ icon('fa fa-angle-right fa-lg') }}
+          </a>
+        </li>
+    </ul>
+  </div>
+
+  <div style='float: right'>
+    <ul class="pager">
+      <li>
+        <a href='/prune/list_tasks'>
+          {{ icon('fa fa-trash-o fa-lg') }}
+          <span data-localize='prune'> Prune</span>
+        </a>
+       </li>
+    </ul>
+  </div>
+</nav>
+<hr style='visibility: hidden'>
+{%- endmacro %}
