@@ -1,4 +1,5 @@
 {% extends './base.html' %}
+
 {% import './blocks/pager.html' as pager %}
 
 {% block title %}All Tasks{% endblock %}
@@ -10,8 +11,23 @@
 {% block body %}
 
 {% block pagination %}
-{% call pager.pager(page) %}
-{% endcall %}
+<nav>
+  <div style='float: left'>
+    {% call pager.pager(page) %}{% endcall %}
+  </div>
+
+  <div style='float: right'>
+    <ul class="pager">
+      <li>
+        <a href='/prune/list_tasks'>
+          {{ icon('trash-o') }}
+          <span data-localize='prune'>Prune</span>
+        </a>
+       </li>
+    </ul>
+  </div>
+</nav>
+<hr style='visibility: hidden'>    
 {% endblock %}
 
 {% autoescape false %}
